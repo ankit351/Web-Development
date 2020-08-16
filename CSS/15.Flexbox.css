@@ -1,0 +1,60 @@
+/* used in 25 */
+.cont {
+  height: 544px;
+  width: 100%;
+  border: 2px solid black;
+  /* intialize display as flex */
+  display: flex;
+  /* flex-direction: row;
+flex-direction: column;
+flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* align-items: center;
+align-items: flex-end;
+align-items: flex-start;
+align-items: stretch; */
+}
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  border: 2px solid rgb(43, 255, 0);
+  margin: 10px;
+  padding: 3px;
+}
+/* higer order lower visible */
+/* higer flex-grow larder size */
+/* higer flex-shrink more shrink */
+
+#item1 {
+  /* order: 24; */
+  /* flex-grow: 3; */
+  /* flex-shrink: 4; */
+}
+#item2 {
+  /* flex-grow: 4; */
+  /* flex-shrink: 2; */
+  /* when flex direction is row flex basic work in 
+  and when flex direction is coloum flex basic is work 
+  in coloum  */
+  flex-basis: 320px;
+}
+#item3 {
+  /* order: 40; */
+  /* flex grow shrink basis */
+  flex: 3 2 300px;
+  align-self: center;
+  align-self: flex-end;
+  /* align-self: flex-start; */
+}
+#item4 {
+}
+#item5 {
+}
+#item6 {
+}

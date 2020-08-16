@@ -1,0 +1,38 @@
+/* used in 19 */
+.cont{
+    border: 3px solid rgb(246, 0, 0);
+    background-color: aqua;
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+    font-size: 24px;
+
+}
+
+.btn{
+    background-color: rgb(238, 255, 0);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: lightgreen;
+    background-color: brown;
+    font-size: 20px;
+    font-style: italic;
+}
+a:visited{
+    color: blue;
+    background-color: black;
+}
+a:active{
+    background-color: red;
+}

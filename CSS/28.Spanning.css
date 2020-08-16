@@ -1,0 +1,22 @@
+/* used in 38 */
+.cont{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* grid-column-gap: 4rem;
+    grid-row-gap: 2rem; */
+    grid-gap: 1rem;
+}
+.box{
+    background-color: red;
+    border: 2px solid black;
+    padding: 23px;
+}
+.box:first-child{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1 / span  3;
+    grid-row:  1 / span 3;
+}

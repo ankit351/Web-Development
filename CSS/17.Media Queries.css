@@ -1,0 +1,32 @@
+/* used in 27 */
+.box{
+    background-color: aquamarine;
+    color: brown;
+    font-size: 72px;
+    text-align: center;
+    display: none;
+}
+@media (max-width:300px){
+    #box1{
+        display: block;
+        background-color: blueviolet;
+    }
+}
+@media (min-width:301px) and (max-width:500px){
+    #box2{
+        display: block;
+        background-color: black;
+    }
+}
+@media (min-width:501px) and (max-width:800px){
+    #box3{
+        display: block;
+        background-color: rgb(0, 255, 21);
+    }
+}
+@media (min-width:801px){
+    #box4{
+        display: block;
+        background-color: rgb(255, 231, 19);
+    }
+}

@@ -1,0 +1,25 @@
+/* used in 31 */
+title{
+    color: aqua;
+    font-family: cursive;
+}
+.cont{
+    border: 2px solid black;
+    display: flex;
+    /* margin: 20px auto;
+    width: 255px; */
+}
+.card{
+    /* border: 2px solid red; */
+    padding: 23px 12px;
+    margin: 23px 12px;
+    background-color: aqua;
+                /* x-axis y-axis blur-radius spred-radius colour rgb( r,b,g,alpha(dark)) */
+    /* box-shadow: 20px -20px 20px 20px rgb(208, 223, 5, .5); */
+    /* inset for inner box */
+    box-shadow: inset 10px 15px 10px green, -10px -15px 10px red,10px 15px 10px red;
+
+}
+.card h1{
+    text-shadow: 4px 2px 3px white;
+}

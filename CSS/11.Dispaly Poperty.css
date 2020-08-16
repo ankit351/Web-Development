@@ -1,0 +1,33 @@
+/* used in 21 */
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: auto;
+    border: 2px solid red;
+    width: 1200px;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 34px;
+    height: 30px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.box{
+    border: 4px dashed black;
+    background-color: aquamarine;
+    margin:  4px;
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+}

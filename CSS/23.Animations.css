@@ -1,0 +1,49 @@
+/* used in 33 */
+.cont {
+  background-color: yellow;
+}
+.box {
+  background-color: greenyellow;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  /* animation-name: anim1; */
+  animation-name: anim2;
+  animation-duration: 3s;
+  /* animation-iteration-count: 1; */
+  animation-iteration-count: infinite;
+  /* where animation stop */
+  /* animation-fill-mode: backwards; */ 
+  /* animation-timing-function: ease-in-out; */
+  /* animation-delay: 1s; */
+  animation-direction: alternate;
+  /* animation-direction: reverse; */
+  /* animation: name, duration, timing delay iteration, fill mode; */
+  /* animation: anim1 3s ease-in-out 0.1s infinite alternate backwards; */
+}
+@keyframes anim2 {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 250px;
+    left: 0;
+  }
+  75% {
+    top: 250px;
+    left: 250px;
+  }
+  100% {
+    top: 0px;
+    left: 250px;
+  }
+}
+@keyframes anim1 {
+  from {
+    widows: 200px;
+  }
+  to {
+    width: 1400px;
+  }
+}

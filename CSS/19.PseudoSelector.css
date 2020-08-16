@@ -1,0 +1,45 @@
+/* used in 29 */
+.cont{
+    display: block;
+    width: 233px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+input{
+    display: block;
+}
+input[type='text']{
+    padding: 23px;
+    border: 2px solid red;
+}
+input[type='email']{
+    font-size: 24px;
+    padding: 22px;
+    border: 2px solid green;
+}
+a[target]{
+    font-size: 24px;
+    color: blue;
+    background-color: aqua;
+}
+a[target="_self"]{
+    font-size: 24px;
+    color:green;
+    background-color: aqua;
+}
+li:nth-child(3)
+{
+    background-color: aquamarine;
+}
+li:nth-child(2n+0)
+{
+    background-color: red;
+}
+li:nth-child(odd)
+{
+    background-color: rgb(53, 255, 12);
+}
+li:nth-child(even)
+{
+    background-color: rgb(255, 239, 10);
+}

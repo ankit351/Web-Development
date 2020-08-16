@@ -1,0 +1,63 @@
+/* used in 18 */
+/* for all item */
+*{
+    box-sizing: border-box;
+}
+
+
+/* classes */
+.cont{
+ width: 900px;
+ border: 4px solid palegreen;
+ margin: 40px auto;
+ font-family: 'Merriweather';
+ background-color: rgb(146, 240, 204);
+}
+
+.item{
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 13px;
+    background-color: beige;
+
+}
+
+.para{
+
+}
+
+/* id's */
+#fruit{
+    float: left;
+    width: 48%;
+    height: 400px;
+}
+#fpara{
+
+}
+
+#comp{
+    float: right;
+    width: 48%;
+    height: 400px;
+}
+#cpara{
+
+}
+
+#stat{
+    /* float: left; */
+    clear: both;
+    width: 100%;
+
+}
+#spara{
+
+}
+
+p,h1{
+    text-align: right;
+    text-align: justify;
+    text-align: center;
+}
+

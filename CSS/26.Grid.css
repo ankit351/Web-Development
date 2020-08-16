@@ -1,0 +1,16 @@
+/* used in 36 */
+.cont{
+    display: grid;
+    /* grid-template-columns: 300px 200px 100px; */
+    /* grid-template-columns: 1fr 4fr 1fr; */
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 2em;
+
+}
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: aqua;
+    border: 2px solid red;
+    padding: 15px 15px;
+}

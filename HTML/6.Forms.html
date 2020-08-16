@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Forms</h2>
+    <form action="phpfile.php">
+        <label for="name"> Name</label>
+        <div><input type="text" , name="myName" id= "name"></div>
+        <br />
+        <div>Roll No.: <input type="text" name="Roll" /></div>
+        <br />
+        <div>E-main: <input type="E-mail" name="myEmail" /></div>
+        <br />
+        <div>Number: <input type="number" name="mynum" /></div>
+        <div>Are you Eligible: <input type="checkbox" name="Eligibility"  checked></div>
+        <div>
+            Gender: male<input type="radio" name="gender" /> Female<input type="radio" name="gender" />
+        </div>
+        <br />
+        <div>
+            write about your self: <br><textarea name="myText" cols="40" rows="15"></textarea>
+        </div>
+        <br>
+        <label for="car"> Car</label>
+        <select name="mycar" id="car">
+            <option value="indica">indica</option>
+            <option value="BMW" selected>BMW</option>
+
+        </select>
+        <br>
+        <div>
+            <input type="date" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Submit Now" />
+        </div>
+        <br />
+        <div>
+            <input type="reset" value="Reset Now" />
+        </div>
+    </form>
+</body>
+
+</html>

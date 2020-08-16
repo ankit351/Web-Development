@@ -1,0 +1,31 @@
+/* used in 16 */
+#id1{
+    background-color: aqua;
+    height: 100px;
+    width: 90%;
+    border: 4px double blue;
+    /* border-width: 4px;
+     border-style: double;
+    border-color: blue;  */
+    border-radius: 12px;
+}
+
+#id2{
+    background-color: rgb(73, 245, 42);
+    height: 100px;
+    width: 90%;
+    border-left: 4px dashed black;
+    border-top: 6px double gray;
+    border-top-left-radius: 15px;
+}
+
+#id3{
+    height: 1200px;
+    width: 90%;
+    background-image: url(../../HARSHIT\ SINGH.jpg);
+    border: 2px solid red;
+    background-repeat: no-repeat; /*repear x and y make repeat x and y axis*/
+    background-position: center top; 
+    /* background-position: 20px 50px ; */
+
+}

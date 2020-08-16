@@ -1,0 +1,14 @@
+/* used in 14 */
+p{
+    /* change looks */
+    font-family: fantasy;
+    font-size: 40px;
+    /* gap between two lines */
+    line-height: 2em;
+    font-weight: 400;
+}
+span{
+    font-weight: bold;
+    color: red;
+    font-style: oblique;
+}

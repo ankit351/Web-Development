@@ -1,0 +1,19 @@
+/* used in 28 */
+h1{
+    color: brown;
+    background-color: rgb(26, 219, 245);
+    font-weight: bold;
+    text-align: center;
+}
+div p{
+    color: blue;
+    background-color: rgb(180, 241, 241);
+}
+div ul p{
+    color: rgb(12, 247, 12);
+    background-color: rgb(238, 165, 116);
+}
+
+div +  p{
+    color: rgb(255, 0, 0);
+}

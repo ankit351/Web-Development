@@ -1,0 +1,34 @@
+/* used in 24 */
+.box {
+  width: 170px;
+  height: 170px;
+  border: 2px solid black;
+}
+/* z-index only work for postion absolute,realative,fixed or syicky */
+/* higer z-index value will appear first */
+#box1 {
+  position: relative;
+  top: 40px;
+  z-index: 5;
+  background-color: rgb(19, 236, 37);
+}
+#box2 {
+  /* visibility only hide content */
+  /* visibility: hidden; */
+  /* display hide elements and apce  */
+  /* display: none; */
+  position: relative;
+  z-index: 4;
+  background-color: rgb(201, 188, 4);
+}
+#box3 {
+  position: relative;
+  top: 50px;
+  z-index: 11;
+  background-color: rgb(94, 24, 224);
+}
+#box4 {
+  position: relative;
+  z-index: 10;
+  background-color: rgb(214, 30, 55);
+}

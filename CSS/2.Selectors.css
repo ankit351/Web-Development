@@ -1,0 +1,29 @@
+/* used in 12*/
+p{
+    color: red;
+    background-color: aquamarine;
+}
+
+/* Class Selectors */
+.csc{
+    color: blue;
+    background-color: aqua;
+}
+/* used in 12 */
+/* ID Selectors */
+#isc{
+    color: rgb(4, 255, 45);
+    font-weight: bold;
+    background-color: rgb(255, 11, 243);
+}
+#isc2{
+    color: rgb(105, 253, 130);
+    font-weight: bold;
+    background-color: rgb(0, 47, 255);
+}
+
+/* Gruoping Selectors */
+span, footer{
+    color: brown;
+    background-color: rgb(226, 212, 212);
+}
