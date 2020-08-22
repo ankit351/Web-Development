@@ -1,0 +1,20 @@
+body{
+    background: rgb(57,208,7);
+    background: linear-gradient(145deg, rgba(57,208,7,1) 0%, rgba(51,190,22,1) 37%, rgba(9,249,243,1) 64%, rgba(0,75,255,1) 100%) no-repeat;
+    height: 110%;
+}
+.card{
+    font-size: 22px;
+    background: rgb(255,246,2);
+    background: linear-gradient(145deg, rgba(255,246,2,1) 15%, rgba(9,249,243,1) 64%, rgba(71,246,23,1) 86%);
+}
+.card-title{
+    font-weight: 700;
+    /* border:  2px solid red; */
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(214,104,203);
+background: linear-gradient(145deg, rgba(214,104,203,1) 15%, rgba(9,249,243,1) 64%, rgba(108,107,224,1) 86%);
+}
